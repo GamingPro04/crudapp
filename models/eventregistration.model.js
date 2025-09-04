@@ -21,6 +21,10 @@ const newEventSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  eventFormURL: {
+    type: String,
+    required: true,
+  },
 });
 
 const NewEvent = mongoose.model("NewEvent", newEventSchema);
